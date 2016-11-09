@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DS BS of Ca 001
+  host: DS-BS-of-Ca-001
+  disk_quota: 1024M
+  services:
+  - DS BS of Ca 001-cloudantNoSQLDB
